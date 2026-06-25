@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+*.tlog
+*.parm
+.env
+venv/
+.venv/
+logs/
+outputs/
+tmp/
