@@ -1,17 +1,36 @@
 # Autonomous Drone Vision Application
 
-A public-facing subset of a larger autonomous drone system focused on aerial vision, operator interaction, telemetry display, HUD overlays, and scene-level alert monitoring.
+A modular real-time aerial perception and control interface for drone systems combining computer vision, operator interaction, telemetry visualization, and safety-aware scene monitoring.
 
-## Current public modules
-- keyboard flight controls
-- scene alert monitoring
+---
+
+## Abstract
+
+This project explores a modular architecture for real-time drone perception and control interfaces.  
+It focuses on separating **control input**, **scene understanding**, and **visualization layers** to ensure scalability and research flexibility.
+
+The system is designed for experimentation in:
+- Real-time computer vision
+- Human–machine interaction
+- Aerial telemetry visualization
+- Automated scene awareness
+
+---
+
+## System Modules (Public Scope)
+
+### Control Layer
+- Keyboard-based flight input handling
+
+### Perception Layer
+- Scene analysis and object classification
+- Threat level estimation and alert generation
+
+### Visualization Layer
 - HUD overlay rendering
-- video feed panel
-- telemetry horizon panel
+- Video stream visualization
+- Telemetry + horizon display interface
 
-## Repository structure
-- `controls/` — keyboard/manual control interfaces
-- `perception/` — alert monitoring logic
-- `overlays/` — HUD and visual overlays
-- `ui/` — video and telemetry panels
-- `docs/` — architecture and notes
+---
+
+## System Architecture
