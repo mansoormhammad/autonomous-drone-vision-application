@@ -1,74 +1,154 @@
-# Public Repository Notice
-
-This repository contains the public-facing components of a larger research and development project. It focuses on the user interface, visualization pipeline, operator interaction, and selected perception modules.
-
-Some core components—including autonomous decision-making, navigation, hardware integration, communication interfaces, and other research-specific implementations—are intentionally not included. These modules remain private due to ongoing development, research considerations, and project scope.
-
-The purpose of this repository is to demonstrate the overall software architecture, engineering approach, and implementation of key real-time computer vision and interface components while preserving the integrity of the complete research system.
-
-
-
 # Autonomous Drone Vision Application
 
-A modular real-time aerial perception and control interface for drone systems combining computer vision, operator interaction, telemetry visualization, and safety-aware scene monitoring.
+A modular real-time aerial perception and control interface for drone systems, combining computer vision, operator interaction, telemetry visualization, and safety-aware scene monitoring.
 
 ---
 
 ## Abstract
 
-This project explores a modular architecture for real-time drone perception and control interfaces.  
-It focuses on separating **control input**, **scene understanding**, and **visualization layers** to ensure scalability and research flexibility.
+This project explores the design and implementation of a modular architecture for real-time drone perception and operator interaction. The system separates control, perception, visualization, and user interface components to improve maintainability, scalability, and real-time performance.
 
-The system is designed for experimentation in:
-- Real-time computer vision
-- Human–machine interaction
-- Aerial telemetry visualization
-- Automated scene awareness
+The project is intended as a research-oriented implementation for experimentation in:
 
----
-
-## System Modules (Public Scope)
-
-### Control Layer
-- Keyboard-based flight input handling
-
-### Perception Layer
-- Scene analysis and object classification
-- Threat level estimation and alert generation
-
-### Visualization Layer
-- HUD overlay rendering
-- Video stream visualization
-- Telemetry + horizon display interface
+- Real-time Computer Vision
+- Human–Machine Interaction
+- Aerial Telemetry Visualization
+- Operator Decision Support
+- Autonomous System Interface Design
 
 ---
 
+## Public Repository Notice
 
-## Demo
+This repository represents the public-facing portion of a larger research and development project.
 
-### Main Interface
+It includes selected interface, visualization, and perception components that demonstrate the overall software architecture and engineering approach.
 
-![Interface](screenshots/interface.png)
+Core research modules—including autonomous decision-making, navigation, hardware communication, sensor integration, and other proprietary implementations—are intentionally excluded from this repository due to ongoing development and research considerations.
 
-### HUD Overlay
+The objective of this repository is to present the project's software engineering practices, modular architecture, and real-time computer vision capabilities while preserving the integrity of the complete research system.
 
-![HUD](screenshots/hud.png)
+---
 
-### Telemetry
+# Demo
+
+## Main Interface
+
+![Main Interface](screenshots/interface.png)
+
+---
+
+## HUD Overlay
+
+![HUD Overlay](screenshots/hud.png)
+
+---
+
+## Telemetry Display
 
 ![Telemetry](screenshots/telemetry.png)
 
+---
 
 ## Features
 
 - Real-time video visualization
-- Telemetry monitoring
-- Keyboard flight control
-- HUD rendering
-- Scene alert monitoring
-- Modular UI architecture
+- Modular user interface
+- Telemetry visualization
+- Horizon indicator
+- Keyboard flight controls
+- HUD overlay rendering
+- Scene monitoring
+- Threat level visualization
+- Real-time operator feedback
+- Modular software architecture
 
+---
 
+## Public Modules
+
+### Control Layer
+
+- Keyboard flight controller
+
+### Perception Layer
+
+- Scene monitoring
+- Threat level estimation
+- Operator alert generation
+
+### Visualization Layer
+
+- HUD overlay renderer
+- Video streaming interface
+- Telemetry visualization panel
+
+---
 
 ## System Architecture
-![system](architecture/system_overview.md)
+
+![System Architecture](architecture/system_overview.png)
+
+---
+
+## Technology Stack
+
+- Python
+- OpenCV
+- NumPy
+- PyQt5
+- Real-time Video Processing
+
+---
+
+## Repository Structure
+
+```
+autonomous-drone-vision-application
+│
+├── app.py
+├── requirements.txt
+├── README.md
+│
+├── controls/
+├── perception/
+├── overlays/
+├── ui/
+│
+├── architecture/
+├── docs/
+├── examples/
+├── screenshots/
+└── assets/
+```
+
+---
+
+## Research Applications
+
+This project demonstrates concepts applicable to:
+
+- Computer Vision
+- Autonomous Systems
+- Human–Machine Interaction
+- Robotics Software Engineering
+- Real-Time Perception Systems
+- Drone Interface Development
+
+---
+
+## Future Work
+
+- Multi-object tracking
+- Sensor fusion
+- Autonomous navigation
+- AI-assisted target prioritization
+- Edge AI deployment
+- Performance optimization
+- Cross-platform deployment
+
+---
+
+## License
+
+This repository is released for educational and research purposes.
