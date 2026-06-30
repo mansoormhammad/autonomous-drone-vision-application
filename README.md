@@ -87,7 +87,7 @@ The objective of this repository is to present the project's software engineerin
 
 ## System Architecture
 
-![System Architecture](architecture/system_overview.png)
+![System Architecture](architecture/system_architecture.png)
 
 ---
 
