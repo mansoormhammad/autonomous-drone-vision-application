@@ -71,4 +71,4 @@ The system is designed for experimentation in:
 
 
 ## System Architecture
-!(architecture/system_overview.md)
+![system](architecture/system_overview.md)
