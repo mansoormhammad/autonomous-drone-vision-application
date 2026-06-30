@@ -1,3 +1,13 @@
+# Public Repository Notice
+
+This repository contains the public-facing components of a larger research and development project. It focuses on the user interface, visualization pipeline, operator interaction, and selected perception modules.
+
+Some core components—including autonomous decision-making, navigation, hardware integration, communication interfaces, and other research-specific implementations—are intentionally not included. These modules remain private due to ongoing development, research considerations, and project scope.
+
+The purpose of this repository is to demonstrate the overall software architecture, engineering approach, and implementation of key real-time computer vision and interface components while preserving the integrity of the complete research system.
+
+
+
 # Autonomous Drone Vision Application
 
 A modular real-time aerial perception and control interface for drone systems combining computer vision, operator interaction, telemetry visualization, and safety-aware scene monitoring.
