@@ -49,4 +49,15 @@ The system is designed for experimentation in:
 ![Telemetry](screenshots/telemetry.png)
 
 
+## Features
+
+- Real-time video visualization
+- Telemetry monitoring
+- Keyboard flight control
+- HUD rendering
+- Scene alert monitoring
+- Modular UI architecture
+
+
+
 ## System Architecture
