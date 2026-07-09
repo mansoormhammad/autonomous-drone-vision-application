@@ -57,7 +57,7 @@ A short demonstration of the autonomous drone vision application showing real-ti
 
 ![Demo Preview](screenshots/demo_thumbnail.png)
 
-▶️ Full demonstration video: [View Demo](assets/demo.mp4)
+▶️ Full demonstration video: [View Demo](assets/airsim.mp4)
 
 ## Main Interface
 
