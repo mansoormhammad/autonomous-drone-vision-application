@@ -55,7 +55,7 @@ Under development:
 
 A short demonstration of the autonomous drone vision application showing real-time perception, interface visualization, telemetry monitoring, and system interaction.
 
-![Demo Preview](screenshots/demo_thumbnail.png)
+![Demo Preview](screenshots/video_streaming_control_unit.png)
 
 ▶️ Full demonstration video: [View Demo](assets/airsim.mp4)
 
