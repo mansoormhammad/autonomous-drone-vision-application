@@ -28,9 +28,36 @@ Core research modules—including autonomous decision-making, navigation, hardwa
 
 The objective of this repository is to present the project's software engineering practices, modular architecture, and real-time computer vision capabilities while preserving the integrity of the complete research system.
 
+
+---
+
+## Project Status
+
+Active research and development project.
+
+Current capabilities:
+- Real-time aerial object perception
+- Vision-based monitoring interface
+- Telemetry visualization
+- Modular AI perception pipeline
+
+Under development:
+- Advanced autonomous control
+- Sensor fusion
+- Hardware integration
+- Extended simulation scenarios
+
 ---
 
 # Demo
+
+## System Demonstration
+
+A short demonstration of the autonomous drone vision application showing real-time perception, interface visualization, telemetry monitoring, and system interaction.
+
+![Demo Preview](screenshots/demo_thumbnail.png)
+
+▶️ Full demonstration video: [View Demo](assets/demo.mp4)
 
 ## Main Interface
 
