@@ -8,3 +8,4 @@ venv/
 logs/
 outputs/
 tmp/
+assets/*.mp4
